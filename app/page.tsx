@@ -420,7 +420,7 @@ export default function DashboardPage() {
           ))}
         </div>
         <p className="text-xs text-slate-500">
-          Detect → Analyze → Risk Check → Execute → Reinvest · 1–3% position sizing · TP: +15% · SL: -10%
+          Detect → Analyze → Risk Check → Execute → Position Close · 10% position sizing · TP: +15% · Hold: 20s
         </p>
       </div>
 
@@ -486,7 +486,7 @@ export default function DashboardPage() {
         <div className="text-xs font-medium text-slate-400 mb-3">Trading Configuration</div>
         <div className="grid grid-cols-5 gap-4 text-xs">
           {[
-            ["Position Size", "2% portfolio"],
+            ["Position Size", "10% portfolio"],
             ["Take Profit", "+15%"],
             ["Stop Loss", "-10%"],
             ["Chain", "X Layer Testnet"],

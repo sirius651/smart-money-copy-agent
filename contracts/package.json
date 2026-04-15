@@ -1,0 +1,19 @@
+{
+  "name": "smart-money-agent-contracts",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:testnet": "hardhat run scripts/deploy.ts --network xlayerTestnet",
+    "test": "hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.19",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}

@@ -16,6 +16,11 @@
 # next.js
 /.next/
 /out/
+.agents
+
+/contracts/node_modules
+/contracts/cache
+/contracts/artifacts
 
 # production
 /build
@@ -39,3 +44,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+AGENTS.md
+CLAUDE.md
+
+data/
